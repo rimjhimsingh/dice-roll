@@ -39,3 +39,27 @@ footer {
   font-family: 'Indie Flower', cursive;
 
 }
+
+.roll-button {
+  padding: 10px 30px;
+  font-size: 18px;
+  font-family: 'Indie Flower', cursive;
+  cursor: pointer;
+  background-color: #42b983; /* Matching the teal/mint green color from your heading */
+  color: white;
+  border: none;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  transition: all 0.3s ease;
+}
+
+.roll-button:hover {
+  background-color: #3da876;
+  transform: translateY(-2px);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.4);
+}
+
+.roll-button:active {
+  transform: translateY(1px);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+}
